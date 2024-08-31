@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+
+.container{
+    position:relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+.container .box{
+    position: relative;
+    width: calc(400px - 3px);
+    height: calc(300px - 30px);
+    background-color: #ff0;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    z-index: 1;
+}
