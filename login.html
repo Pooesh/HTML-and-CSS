@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: blanchedalmond;
+            font-size: medium;
+        }
+        button{
+            background-color: blue;
+            width: 100%;
+            color: rgb(red, green, blue);
+            padding: 10px;
+            margin: 1%;
+            border: none;
+            cursor: pointer;S
+        }
+        input[type=text],input[type=password]{
+            width:50%;
+            margin:8px 0px;
+            padding:12px 20px;
+            display:inline-block;
+            border:2px solid rgb(109,8,240);
+            box-sizing:border-box;
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+        #cancelbtn{
+            width: auto;
+            padding: 12px 15px;
+            margin: 10px 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Login Form</h1>
+    <form style="border: 3px solid #f1f1f1;">
+        <div style="padding: 25px;background-color:lightblue ;">
+        <labe> Username:</labe>
+        <input type="text" placeholder="Enter username" name="username" required>
+        <br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter password" name="password" required>
+        <br>
+
+        <button>login</button>
+        <input type="checkbox" checked="checked">Remmeber me
+        <button type="button" id="cancelbtn">cancel</button>
+
+        <br>
+        <a href="#"> Forget password</a>
+        <br>
+        <br>
+        <a href="signin.html">Register</a>
+
+        </div>
+
+    </form>
+</body>
+</html>
